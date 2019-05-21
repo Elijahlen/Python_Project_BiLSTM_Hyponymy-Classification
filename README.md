@@ -8,3 +8,9 @@ For example, in sentence *Stephen Hawking is a physicist .*, phrase *Stephen Haw
 + `tags.txt` lists all the tags.
 + `train.txt`, `dev.txt`, `test.txt` refers to training set, development set, and test set, individually. Each of them is in the CoNLL format, with each line having two columns for word and tag. Sentences are separated by blank lines.
 + `word_embeddings.txt` is the pretrained word embedding file, with word in the first column and embeddings (a vector with 50-dimensions) in the rest columns.    
+# A Baseline BiLSTM Model
+
++ In this project, you are required to use Bidirectional LSTM (BiLSTM) and SoftMax in your model.
++ The input tensor will go through a *BiLSTM layer*, followed by a *softmax* function to determine the output tags.
++ An example of the model is shown as follows:
+<img src="./fig/workflow.png" width="25%">.
