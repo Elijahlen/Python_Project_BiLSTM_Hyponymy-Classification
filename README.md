@@ -14,3 +14,4 @@ For example, in sentence *Stephen Hawking is a physicist .*, phrase *Stephen Haw
 + The input tensor will go through a *BiLSTM layer*, followed by a *softmax* function to determine the output tags.
 + An example of the model is shown as follows:
 <img src="./fig/workflow.png" width="25%">.
+#
