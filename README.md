@@ -12,6 +12,5 @@ For example, in sentence *Stephen Hawking is a physicist .*, phrase *Stephen Haw
 
 + In this project, you are required to use Bidirectional LSTM (BiLSTM) and SoftMax in your model.
 + The input tensor will go through a *BiLSTM layer*, followed by a *softmax* function to determine the output tags.
-+ An example of the model is shown as follows:
-<img src="./fig/workflow.png" width="25%">.
-#
++ An example of the model is shown as follows:<img src="./workflow.png" width="25%">.
+
