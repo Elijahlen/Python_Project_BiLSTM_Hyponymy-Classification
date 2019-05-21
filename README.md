@@ -14,3 +14,11 @@ For example, in sentence *Stephen Hawking is a physicist .*, phrase *Stephen Haw
 + The input tensor will go through a *BiLSTM layer*, followed by a *softmax* function to determine the output tags.
 + An example of the model is shown as follows:<img src="./workflow.png" width="25%">.
 
+# Training
+In the training process, in each epoch, you should feed the training data to the model batch by batch, and update the paramters accordingly. 
+
+You should use ADAM as the optimizer for your model.
+
+If your implementation is correct, then your loss should converge within 80 epochs. Therefore the maximum number of epochs is set to 80.
+
+You can either take the model from the last epoch or the one with highest F1 score on the development set as the final model.
